@@ -1,0 +1,17 @@
+/* 指定css文件的编码 */
+@charset "utf-8";
+
+h1{
+    font-size: 50px;
+}
+div{
+    color: cornflowerblue;
+}
+/* 并集选择器 */
+h1, p, div{
+    color:cyan;
+}
+/* 类选择器 */
+.red{
+    color: red;
+}
